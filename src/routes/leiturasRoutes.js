@@ -36,7 +36,7 @@ router.get('/leituras', async (req, res) => {
   Exemplo:
   GET http://localhost:3000/leituras/data/2026-05-11
 */
-router.get('/leituras/data/:data', async (req, res) => {
+router.get('/leituras/data/:data', async (req, rges) => {
   try {
     const { data } = req.params;
 
